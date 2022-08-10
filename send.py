@@ -7,6 +7,7 @@ def sendsth(name,message,title):
         f.write(message[:-2])
     os.system("cd "+w+"msg")
     os.system("git init")
+    os.system("git remote add origin https://github.com/sclass53/msgsend.git")
     os.system("git add .")
     os.system('git commit -m "init project"')
     os.system("git config --unset http.proxy")
