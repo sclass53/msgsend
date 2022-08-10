@@ -12,9 +12,10 @@ def sendsth(name,message,title):
     os.system('git commit -m "init project"')
     os.system("git config --unset http.proxy")
     os.system("git config --unset https.proxy")
-    os.system('git config credential.username "ginoblog"')
-    os.system('git config credential.useremail "gino_redlight@163.com"')
-    os.system('git credential-manager uninstall')
+    os.system('git config credential.username "sclass53"')
+    os.system('git config credential.useremail "gino0922@163.com"')
+    os.system('git config --global user.name "sclass53"')
+    os.system('git config --global user.email "gino0922@163.com"')
     os.system('git branch -M master')
     os.system('git push -u origin master')
 wl=''
